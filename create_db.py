@@ -5,7 +5,7 @@ import sqlite3
 import argparse
 import datetime
 
-conn = sqlite3.connect('users.db')
+conn = sqlite3.connect('/home/pi/nfc_reader/users.db')
 cursor = conn.cursor()
 
 if __name__ == "__main__":
